@@ -60,7 +60,7 @@
           </span>
         </h1>
         <h2 class="mb-5">
-          <em>and I'm a web developer</em>
+          <em>and I'm a <span class="text-secondary">web developer</span></em>
         </h2>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
       </div>
@@ -86,9 +86,8 @@
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
-      <div class="col-lg-10 m-auto">
-        <div class="row no-gutters justify-content-center gallery">
-          <div class="col-lg-10">
+      <div class="col-lg-6 m-auto">
+        <div class="row justify-content-center gallery">
             <div id="carousel-1" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
@@ -114,18 +113,16 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>
           </div>
         </div>
-        <div class="col-lg-10 mx-auto p-0">
-          <a class="h3" href="https://peaceful-bastion-92249.herokuapp.com/">PhotoSpot</a>
+        <div class="pt-2 pb-2">
+          <a class="h3 text-secondary" href="https://peaceful-bastion-92249.herokuapp.com/">PhotoSpot</a>
           <p>A site to upload and discuss user images. A personal learning project built with mongo, express and node. Features
             include user registration, image upload, fuzzy search, ratings and comments</p>
         </div>
 
 
-        <div class="row no-gutters justify-content-center gallery m-auto">
-          <div class="col-lg-10">
+        <div class="row justify-content-center gallery">
             <div id="carousel-2" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
@@ -148,10 +145,10 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-          </div>
+        
         </div>
-        <div class="col-lg-10 mx-auto p-0">
-          <a class="h3" href="https://www.bossroofing.com.au/">Boss Roofing</a>
+        <div class="pt-2 pb-2">
+          <a class="h3 text-secondary" href="https://www.bossroofing.com.au/">Boss Roofing</a>
           <p>Website designed for a roofing business in Tasmania.</p>
         </div>
       </div>
@@ -163,9 +160,9 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form class="gform form-horizontal" method="POST" action="https://script.google.com/macros/s/AKfycbx-SAhzX2vEfsZwDlC39cnGdYX5NPISiZSwqCiA1A/exec">
-            <!-- change the form action to your script url -->
+          <form class="gform form-horizontal" method="POST" action="https://script.google.com/macros/s/AKfycbx-SAhzX2vEfsZwDlC39cnGdYX5NPISiZSwqCiA1A/exec">           
             <fieldset>
+              <legend class="text-center">Contact me</legend>
               <!-- spam prevention -->
               <label class="sr-only">Keep this field blank</label>
               <input id="honeypot" type="text" name="honeypot" value="" />
@@ -193,20 +190,17 @@
                   <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
                 </div>
               </div>
-
-              <button class="btn btn-xl btn-dark">
-                <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+              <div class="col-md-12 text-center">
+              <button class="btn btn-xl btn-dark"><i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+              </div>
+            </fieldset>
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+            <div class="thankyou_message" style="display:none;">
+              <h2><em>Thanks</em> for contacting me! I will get back to you soon!</h2>
+            </div>
+          </form>
         </div>
-        </fieldset>
-        <!-- Customise the Thankyou Message People See when they submit the form: -->
-        <div class="thankyou_message" style="display:none;">
-          <h2>
-            <em>Thanks</em> for contacting us! We will get back to you soon!</h2>
-        </div>
-
-        </form>
       </div>
-    </div>
     </div>
   </section>
 
@@ -215,23 +209,6 @@
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-facebook"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-twitter"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
-            <i class="icon-social-github"></i>
-          </a>
-        </li>
-      </ul>
       <p class="text-muted small mb-0">Copyright &copy; Michael Beloff 2018</p>
     </div>
   </footer>
