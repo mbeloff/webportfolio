@@ -380,3 +380,7 @@ a:hover, a:focus, a:active {
 .jumbotron {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 15px 60px 0 rgba(0, 0, 0, 0.1), 0 15px 150px 0 rgba(0, 0, 0, 0.1);
 }
+
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
