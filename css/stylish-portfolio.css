@@ -367,12 +367,11 @@ a:hover, a:focus, a:active {
 }
 
 .gallery {
-  height: 30vh;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 0 15px 60px 0 rgba(0, 0, 0, 0.05), 0 15px 75px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.06), 0 15px 60px 0 rgba(0, 0, 0, 0.02), 0 15px 75px 0 rgba(0, 0, 0, 0.05);
 }
 
 .carousel-item img {
-  height: 30vh;
+  /* height: 25vh; */
   width: 100%;
   object-fit: cover;
 }
